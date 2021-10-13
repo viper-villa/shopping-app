@@ -2,6 +2,7 @@ import React from 'react';
 import Products from './components/Products';
 import data from './data.json';
 
+
 class App extends React.Component {
   constructor() {
     super();
@@ -33,6 +34,21 @@ class App extends React.Component {
       </div>
     );
   }
+//feature-1
+function App() {
+  return (
+  <div className="grid-container">
+    <header>
+      <a href="/">Shopping Cart</a>
+    </header>
+    <main>
+      Product List
+    </main>
+    <footer>
+      All Right Is reserved
+    </footer>
+  </div>
+  );
 }
 
 export default App;
