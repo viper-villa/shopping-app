@@ -38,6 +38,7 @@ class App extends React.Component {
     }
     this.setState({ cartItems });
     localStorage.setItem("cartItems",JSON.stringify(cartItems));
+    window.scroll(0,0);
   };
   sortProducts = (event) => {
     // impl
